@@ -1,4 +1,4 @@
-# Posner Cueing Task (PsychoPy)
+# NCCR Application - Task 2 - PsychoPy: Posner Cueing Task
 
 A spatial cueing experiment implemented in PsychoPy Builder. A peripheral (exogenous) or central (endogenous) cue draws attention to a location before a target appears.
 
