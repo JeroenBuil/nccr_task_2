@@ -1,0 +1,10 @@
+﻿label,code,meaning
+FIX_ONSET,0,Fixation cross onset
+CUE_LEFT,11,Cue onset - cued side left
+CUE_RIGHT,12,Cue onset - cued side right
+TARGET_LEFT,21,Target onset - target side left
+TARGET_RIGHT,22,Target onset - target side right
+RESPONSE_INCORRECT,30,Response given - wrong key
+RESPONSE_CORRECT,31,Response given - correct key
+RESPONSE_TIMEOUT,32,No response within timeout window
+ITI_ONSET,40,Inter-trial interval begins
