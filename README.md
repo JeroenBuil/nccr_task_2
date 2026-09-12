@@ -1,6 +1,8 @@
 # Posner Cueing Task (PsychoPy)
 
-A spatial cueing experiment implemented in PsychoPy Builder. A peripheral or central cue draws attention to a location before a target appears; the task measures how validly-cued (vs. invalidly-cued) targets are responded to faster, separately for **exogenous** (peripheral, involuntary) and **endogenous** (central, voluntary) cues.
+A spatial cueing experiment implemented in PsychoPy Builder. A peripheral (exogenous) or central (endogenous) cue draws attention to a location before a target appears.
+
+See [Task 2 WriteUp - Jeroen Buil.docx](Task 2 WriteUp - Jeroen Buil.docx) for the design decisions and other comments.
 
 ## Requirements
 
@@ -146,7 +148,5 @@ info = StreamInfo('PosnerMarkers', 'Markers', 1, 0, 'string', 'posner001')
 outlet = StreamOutlet(info)
 # inside send_trigger(): outlet.push_sample([label])
 ```
-
-No other part of the experiment needs to change — every trigger call site just calls `send_trigger(label)`.
 
 
