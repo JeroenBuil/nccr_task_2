@@ -2,7 +2,7 @@
 
 A spatial cueing experiment implemented in PsychoPy Builder. A peripheral (exogenous) or central (endogenous) cue draws attention to a location before a target appears.
 
-See [Task 2 WriteUp - Jeroen Buil.docx](Task%202%20WriteUp%20-%20Jeroen%20Buil.docx) for the design decisions and other comments.
+See [Task 2 WriteUp - Jeroen Buil.pdf](Task%202%20WriteUp%20-%20Jeroen%20Buil.pdf) for the design decisions and other comments.
 
 ## Requirements
 
